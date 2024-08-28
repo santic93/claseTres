@@ -4,11 +4,11 @@ import { ClaseTres } from './Components/claseTres';
 
 function App() {
   ////Creo un estado 
-  const [nombre, setNombre] = useState('Santiago');
+  const [props, setProps] = useState('');
   return (
     <>
     {/* Paso ese estado y la funcion a mi componente */}
-      <ClaseTres nombre={nombre} setNombre={setNombre} />
+      <ClaseTres props={props} setProps={setProps} />
     </>
   );
 }
