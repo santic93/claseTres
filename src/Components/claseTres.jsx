@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
-export const ClaseTres = () => {
+////RECIBO MIS PROPS EN EL COMPONENTE
+export const ClaseTres = ({ nombre, setNombre }) => {
 	const [nombre, setNombre] = useState('')
 	const [apellido, setApellido] = useState('')
 	const [requerido, setRequerido] = useState(false)

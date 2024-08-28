@@ -3,9 +3,11 @@ import './App.css';
 import { ClaseTres } from './Components/claseTres';
 
 function App() {
-  const [nombre, setNombre] = useState('');
+  ////Creo un estado 
+  const [nombre, setNombre] = useState('Santiago');
   return (
     <>
+    {/* Paso ese estado y la funcion a mi componente */}
       <ClaseTres nombre={nombre} setNombre={setNombre} />
     </>
   );
